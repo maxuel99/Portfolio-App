@@ -1,0 +1,26 @@
+.Presentation {
+  display: flex;
+  flex-direction: column;
+  height: 490px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(71, 173, 139);
+  padding: 3rem 0;
+}
+.Presentation img {
+  width: 350px;
+  margin-bottom: 0.5rem;
+}
+.Presentation h1 {
+  color: rgb(255, 255, 255);
+  border-bottom: 0.2rem inset rgb(255, 255, 255);
+  padding-bottom: 0.5rem;
+}
+.Presentation .list-item {
+  display: flex;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+}
+.Presentation .list-item li:not(:last-child) {
+  margin-right: 2rem;
+}/*# sourceMappingURL=Presentation.css.map */

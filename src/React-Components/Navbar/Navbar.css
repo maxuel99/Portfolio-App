@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.Navbar {
+  width: auto;
+  height: 10%;
+  background-color: rgb(17, 32, 82);
+  padding: 1rem;
+}
+.Navbar h2 {
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=Navbar.css.map */

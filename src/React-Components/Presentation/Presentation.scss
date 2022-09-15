@@ -1,0 +1,30 @@
+.Presentation {
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 173, 139);
+    padding: 3rem 0;
+
+        & img {
+            width: 350px;
+            margin-bottom: .5rem;
+        }
+
+        & h1 {
+            color: rgb(255, 255, 255);
+            border-bottom: .2rem inset rgb(255, 255, 255);
+            padding-bottom: .5rem;
+        }
+
+        & .list-item {
+            display: flex;
+            margin-top: 1rem;
+            color: rgb(255, 255, 255);
+
+            & li:not(:last-child) {
+                margin-right: 2rem;
+            }
+        }
+}
