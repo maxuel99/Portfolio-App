@@ -18,6 +18,7 @@
 }
 .Navbar h2 {
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 .Navbar .sections {
   width: auto;
@@ -131,6 +132,25 @@
 }
 .container-exitIcon:hover {
   opacity: 0.8;
+}
+
+.container-statistic {
+  margin-top: 2.5rem;
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  background-color: rgb(223, 222, 221);
+  padding: 1rem 0;
+}
+.container-statistic .subcontainer {
+  width: 50%;
+}
+.container-statistic h1, .container-statistic p, .container-statistic a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

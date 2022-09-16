@@ -1,0 +1,19 @@
+.container-statistic {
+    margin-top: 2.5rem;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: rgb(223, 222, 221);
+    padding: 1rem 0;
+
+        .subcontainer {
+            width: 50%;
+        }
+        & h1, p, a {
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: none;
+        }
+}
