@@ -2,9 +2,11 @@ import avatarImg from './Assets/Image/avatar.png'
 
 const Presentation = () => {
     return ( 
-        <div className='Presentation'>
+        <div className='Presentation' id="profile">
             <img src={avatarImg} alt="immagine profilo" />
-            <h1>MASSIMO MANUEL CASER</h1>
+            <a href="#profile">
+                <h1>MASSIMO MANUEL CASER</h1>
+            </a>
             <ul className='list-item'>
                 <li>JR Developer</li>
                 <li>Web Designer</li>

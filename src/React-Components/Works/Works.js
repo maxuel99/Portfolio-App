@@ -6,7 +6,7 @@ import iconClose from './Assets/Icons/icons8-close.svg'
 import PopUP from './PopUP';
 
 const Works = () => {
-    
+
     const [isShown, setIsShown] = useState(false);
     const [isShown2, setIsShown2] = useState(false);
     const [isShown3, setIsShown3] = useState(false);
@@ -35,9 +35,11 @@ const Works = () => {
     ]
 
     return (
-      <div>
-        <div className='container-h1'>
-            <h1>MY PROJECTS</h1>
+      <div >
+        <div className='container-h1' id='projects'>
+            <a href="#projects">
+                <h1>MY PROJECTS</h1>
+            </a>
         </div>
         <div className="container">
           {data.map((a) => (

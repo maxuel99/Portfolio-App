@@ -12,6 +12,10 @@
             margin-bottom: .5rem;
         }
 
+        & a {
+            text-decoration: none;
+        }
+
         & h1 {
             color: rgb(255, 255, 255);
             border-bottom: .2rem inset rgb(255, 255, 255);

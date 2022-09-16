@@ -7,6 +7,10 @@
 }
 
 .Navbar {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: baseline;
   width: auto;
   height: 10%;
   background-color: rgb(17, 32, 82);
@@ -14,6 +18,23 @@
 }
 .Navbar h2 {
   color: rgb(255, 255, 255);
+}
+.Navbar .sections {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar .sections ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar .sections li {
+  color: rgb(255, 255, 255);
+  margin-right: 1rem;
+  list-style-type: none;
+  cursor: pointer;
 }
 
 .Presentation {
@@ -28,6 +49,9 @@
 .Presentation img {
   width: 350px;
   margin-bottom: 0.5rem;
+}
+.Presentation a {
+  text-decoration: none;
 }
 .Presentation h1 {
   color: rgb(255, 255, 255);
@@ -46,6 +70,13 @@
 .container-h1 {
   padding-top: 2rem;
   text-align: center;
+}
+.container-h1 a {
+  text-decoration: none;
+  color: black;
+}
+.container-h1 a:hover {
+  color: black;
 }
 
 .container {
