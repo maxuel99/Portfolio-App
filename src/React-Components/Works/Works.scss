@@ -83,6 +83,14 @@
         }
     }
 
+    .containerAllPop {
+        position: unset;
+
+        .container-popUP {
+            width: 75%;
+        }
+    }
+
 }
 
 
@@ -98,6 +106,14 @@
 
         .cards {
             margin-bottom: 2rem;
+        }
+    }
+
+    .containerAllPop {
+        position: unset;
+
+        .container-popUP {
+            width: 90%;
         }
     }
 

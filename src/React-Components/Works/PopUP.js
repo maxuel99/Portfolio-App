@@ -1,6 +1,7 @@
 const PopUP = ({pop}) => {
     return ( 
-        <div className='containerAllPop' style={{ display: pop.display ? "flex" : "none" }}>
+        <div className='containerAllPop' style={{ display: pop.display ? "flex" : "none" }} id={pop.id}>
+            <a href={pop.ashtag}></a>
             <div className='container-popUP'>
                     <div className='container-exitIcon'>
                         <img src={pop.image} alt="exit" onClick={pop.onClick}/>

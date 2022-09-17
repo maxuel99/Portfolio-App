@@ -159,6 +159,13 @@
   .container .cards {
     margin-bottom: 2rem;
   }
+
+  .containerAllPop {
+    position: unset;
+  }
+  .containerAllPop .container-popUP {
+    width: 75%;
+  }
 }
 @media screen and (max-width: 576px) {
   .container-h1 {
@@ -172,6 +179,13 @@
   }
   .container .cards {
     margin-bottom: 2rem;
+  }
+
+  .containerAllPop {
+    position: unset;
+  }
+  .containerAllPop .container-popUP {
+    width: 90%;
   }
 }
 .container-statistic {
