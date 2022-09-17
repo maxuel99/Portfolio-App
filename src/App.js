@@ -1,3 +1,4 @@
+import Contact from './React-Components/Form.js/Contact';
 import Navbar from './React-Components/Navbar/Navbar';
 import Presentation from './React-Components/Presentation/Presentation';
 import Statistic from './React-Components/Statistic/Statistic';
@@ -10,6 +11,7 @@ function App() {
       <Presentation />
       <Works />
       <Statistic />
+      <Contact />
     </div>
   );
 }

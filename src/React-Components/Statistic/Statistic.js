@@ -35,7 +35,7 @@ const Statistic = () => {
             return response.json()})
 
         .then(data => {
-            console.log(data)
+            // console.log(data)
             setChartData({
                 labels: ["12/06", "19/06", "26/06", "03/07", "10/07", "17/07"],
                 datasets: [

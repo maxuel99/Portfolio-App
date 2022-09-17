@@ -43,7 +43,7 @@ const Works = () => {
         </div>
         <div className="container">
           {data.map((a) => (
-            <div key={a.id}>
+            <div className="cards" key={a.id}>
               <Carta props={a} />
             </div>
           ))}

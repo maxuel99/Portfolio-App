@@ -41,3 +41,18 @@
             }
         }   
 }
+
+@media screen and (min-width: 360px) and (max-width: 576px) {
+    .Navbar {
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+        .sections {
+            margin-top: 1rem;
+        }
+    }
+}

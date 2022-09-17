@@ -15,6 +15,11 @@ const Navbar = () => {
       const onClick3 = () => {
         window.location.href = "#statistics";
       };
+
+      const onClick4 = () => {
+        window.location.href = "#contact";
+      };
+
     return ( 
         <div className="Navbar">
             <h2 onClick={onClick0}>MY PORTFOLIO</h2>
@@ -23,6 +28,7 @@ const Navbar = () => {
                     <li onClick={onClick}>ABOUT</li>
                     <li onClick={onClick2}>PROJECTS</li>
                     <li onClick={onClick3}>STATISTICS</li>
+                    <li onClick={onClick4}>CONTACT</li>
                 </ul>
             </div>
         </div>
