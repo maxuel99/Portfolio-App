@@ -33,7 +33,7 @@ const Contact = () => {
                 <input type="tel" name="user_phone" required style={{marginBottom: "1rem", borderRadius:"10px", height: "35px", border: "1px solid black"}}/>
 
                 <label>Messsage</label>
-                <textarea name="message" required style={{marginBottom: "1rem", borderRadius:"10px"}}></textarea >
+                <textarea name="message" rows="4" cols="50" required style={{marginBottom: "1rem", borderRadius:"10px"}}></textarea >
 
                 <button type="submit" style={{ width: "70px", backgroundColor: "rgb(71, 173, 139)", borderRadius:"5px" }}>Send</button>
             </form>
