@@ -108,6 +108,7 @@ const Works = () => {
         </div>
 
         <div className='containerAllPop' style={{ display: isShown ? "flex" : "none" }} id='competenze'>
+            {/* eslint-disable-next-line */}
             <a href="#competenze"></a>
             <div
             className="container-popUP"

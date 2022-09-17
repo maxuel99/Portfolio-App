@@ -1,6 +1,7 @@
 const PopUP = ({pop}) => {
     return ( 
         <div className='containerAllPop' style={{ display: pop.display ? "flex" : "none" }} id={pop.id}>
+            {/* eslint-disable-next-line */}
             <a href={pop.ashtag}></a>
             <div className='container-popUP'>
                     <div className='container-exitIcon'>
