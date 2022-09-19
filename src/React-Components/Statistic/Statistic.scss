@@ -17,3 +17,13 @@
             text-decoration: none;
         }
 }
+
+@media screen and (min-width: 360px) and (max-width: 576px) {
+    .container-statistic {
+        width: auto;
+
+        .subcontainer {
+            width: 90%;
+        }
+    }
+}
