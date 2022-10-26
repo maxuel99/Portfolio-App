@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { Bar } from 'react-chartjs-2';
+
 import { 
     Chart as ChartJS,
     CategoryScale, 
@@ -30,12 +31,15 @@ const Statistic = () => {
     const [chartOptions, setChartOptions] = useState({})
 
     useEffect(() => {
-        fetch("https://api.github.com/repos/maxuel99/ESERCIZI-JAVASCRIPT/stats/code_frequency")
+        fetch("https://api.github.com/repos/maxuel99/ESERCIZI-JAVASCRIPT/stats/code_frequency", {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `${process.env.TOKEN}`}
+        })
         .then(response => {
             return response.json()})
 
         .then(data => {
-            // console.log(data)
+            console.log(data)
             setChartData({
                 labels: ["12/06", "19/06", "26/06", "03/07", "10/07", "17/07"],
                 datasets: [
